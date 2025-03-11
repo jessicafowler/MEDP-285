@@ -1,0 +1,113 @@
+
+/* START border-box fix */
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* END border-box fix */
+
+
+header {
+    background-color: #6b0c04;
+    text-align: center;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+
+        
+nav {
+    background-color: #8f1006;
+    float: left;
+    margin: 15px;
+    text-align: center;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+nav a {
+        text-decoration: none;
+        color: #420803;
+        border-style: groove;
+        border-radius: 3px;
+        border-color:#420803;
+        padding: 3px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    nav a:hover {
+        color:antiquewhite;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+main {
+    background-color: #b33a30;
+    float: right;
+    margin: 15px;
+    padding: 10px;
+    width: 1000px;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+
+body {
+    background-color: #420803;
+    margin: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    
+aside {
+    background-color: #d6594d;
+    margin: 15px;
+    padding: 10px;
+    float: right;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+        
+img {
+    margin: 3px;
+    border-radius: 3px;
+    padding: inherit; 
+    margin: auto; 
+    width: 200px; 
+
+}
+
+footer {
+    background-color: #fc1703;
+    clear: both;
+    text-align: center;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+     
+.container {
+    width: 350px;
+    padding: 40px;
+}
+
+div {
+    background: #fc1703;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+.box {
+
+    background: #6b0c04;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    border: 20px solid red;
+    margin: 40px auto;
+
+}
