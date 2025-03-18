@@ -1,0 +1,117 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /* END border-box fix */
+
+  body {
+    padding: 0px;
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+#wrapper {
+    margin: 0px auto;
+    /* centers the wrapper */
+    background-color: rgb(67, 137, 68);
+    color: white;
+    max-width: 1000px;
+    /* max-width: 80%; */
+    display: flex;
+    /* use flex box */
+    flex-wrap: wrap;
+    /* wrap flex items inside the #wrapper */
+}
+header {
+    background-color: rgb(67, 137, 68);
+    flex: 1 0 100%;
+    /* grow on, shrink off, span width of wrapper */
+
+    order: 1;
+}
+
+main {
+    background-color: rgb(72, 96, 72);
+    flex: 1 1 500px;
+    order: 3;
+}
+nav {
+    background-color: rgb(14, 60, 15);
+    flex: 1 0 200px;
+    /* grow but do not shrink less than basis */
+    order: 2;
+        background-color:yellowgreen;
+        margin: 20px;
+        text-align: center;
+        border-radius: 3px;
+        font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+}
+
+nav a {
+    text-decoration: none;
+    color: #420803;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <500>;
+    font-style: normal;
+}
+
+nav a:hover {
+    color:yellow;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+}
+
+aside {
+    background-color: rgb(65, 198, 67);
+    flex: 1 0 200px;
+    /* grow but do not shrink less than basis */
+    order: 4;
+}
+footer {
+    background-color: rgb(151, 210, 152);
+    flex: 1 0 100%;
+    /* grow on, shrink off, span width of wrapper */
+    order: 5;
+}
+
+img {
+    margin: 3px;
+    border-radius: 3px;
+    padding: inherit; 
+    margin: auto; 
+    width: 200px; 
+
+}
+
+.box {
+
+    background: yellowgreen;
+    width: 200px;
+    padding: 40px;
+    border: 20px solid #420803;
+    margin: 40px auto;
+
+}
