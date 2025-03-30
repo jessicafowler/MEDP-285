@@ -1,0 +1,238 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+h1 {
+
+    border: 10px solid #ddb475;
+    border-style:groove;
+    border-radius: 50px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+    
+    header{
+
+        flex: 1 0 100%;
+        order: 1;
+
+    }
+
+    header h1 {
+
+        color: 	#ddb475;
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 700;
+    font-family: "Italiana", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+    margin: 0px 0px 30px 0px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: 2px 3px #755b30;
+    flex: 1 0 200px;
+    order: 2;
+    
+    }
+
+body {
+
+    background-color: #b21807;
+    margin: 5px;
+    padding: 50px;
+    outline: 2px double #ddb475;
+    font-family: "Italiana", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+header h2{
+
+color: 	#ddb475;
+font-size: 40px;
+font-weight: 500;
+font-family: "Italiana", sans-serif;
+font-style: normal;
+margin: 0px 0px 30px 0px;
+font-stretch: condensed;
+text-align: center;
+text-shadow: 2px 3px #755b30;
+
+}
+
+nav {
+
+background-color: #ddb475;
+border-radius: 10px;
+text-align: center;
+order:1
+
+}
+nav a {
+
+    color: #520a02;
+    font-size: 20px;
+    font-style: Bold;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 20px 20px;
+    text-decoration: none;
+    cursor: alias;
+
+}
+
+nav a:hover {
+
+color: #b21807; 
+
+}
+
+main{
+
+    flex: 1 1 500px;
+    order: 2;
+
+}
+
+h2 {
+
+    color:#ddb475;
+  
+    
+    }    
+
+   
+main img {
+
+width: 300px;
+cursor:grab;
+
+
+}
+
+aside {
+background-color: #ddb475;
+animation-name: section;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+
+--mask:
+radial-gradient(45.38px at 50% calc(100% + 28.5px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 60px) calc(50% - 19px + .5px)/120px 38px ,
+radial-gradient(45.38px at 50% -28.5px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 19px)/120px 38px ;
+-webkit-mask: var(--mask);
+      mask: var(--mask);
+
+      flex: 1 0 200px;
+      order: 4;
+
+border-radius: 10px;
+
+}
+
+section{
+    background-color: #ddb475;
+    animation-name: section;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+
+        --mask:
+          radial-gradient(46.86px at 50% 66px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+          radial-gradient(46.86px at 50% -36px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+          radial-gradient(46.86px at 50% calc(100% - 66px),#000 99%,#0000 101%) 50% 100%/120px 51% repeat-x,
+          radial-gradient(46.86px at 50% calc(100% + 36px),#0000 99%,#000 101%) calc(50% - 60px) calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+    
+}
+
+footer{
+
+    background-color: #071966;
+    border-radius: 10px;
+    text-align: center;
+    
+    flex: 1 0 100%;
+    order: 5;
+}
+
+
+.box {
+
+    background: #755b30;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 10px solid #ddb475;
+    border-radius: 10px;
+    margin: 40px auto;
+
+}
+
+article{
+    background-color: #071966;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#wrapper {
+    margin: 0px auto;
+    background-color:#540808;
+    color: #ddb475;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+
+summary img{
+
+width: 300px;
+
+}
+
+.grid-container {
+
+    display: inline-grid;
+    border: 10px solid #d9d457;
+    border-style: dotted;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: minmax(100px, auto);
+    gap: 1px
+    
+    }
+    
+    .grid-item {
+    
+        padding: 50px;
+        
+    }
+    
+@keyframes section {
+    0% {background-color: #b21807;}
+    50% {background-color: #ddb475;}
+    100% {background-color: #b21807;}
+
+}
+
+@keyframes aside {
+    0% {background-color: #540808;}
+    50% {background-color: #ddb475;}
+    100% {background-color: #540808;}
+
+}
+
