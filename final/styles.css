@@ -1,0 +1,272 @@
+
+
+/* fonts */
+
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
+h1 {
+
+    border: 10px solid #ffffff;
+    border-style: dashed;
+    text-align: center;
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
+    
+    header{
+
+        flex: 1 0 100%;
+        order: 1;
+
+    }
+
+    header h1 {
+
+        color: 	#ffffff;
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 700;
+    font-family: "Gloria Hallelujah", cursive;
+    margin: 0px 0px 30px 0px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: 2px 3px #290202;
+    flex: 1 0 200px;
+    order: 2;
+    
+    }
+
+body {
+
+    background-color: #a31717;
+    margin: 5px;
+    padding: 50px;
+    outline: 2px double #ffffff;
+    color: 	#ffffff;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+header h2{
+
+color: 	#ffffff;
+font-size: 40px;
+font-weight: 500;
+font-family: "Indie Flower", cursive;
+    font-style: normal;
+margin: 0px 0px 30px 0px;
+font-stretch: condensed;
+text-align: center;
+text-shadow: 2px 3px #290202;
+
+}
+
+nav {
+
+background-color: #ffffff;
+text-align: center;
+order:1
+
+}
+nav a {
+
+    color: #290202;
+    font-size: 20px;
+    font-style: Bold;
+    font-weight: 500;
+    font-family: "Gloria Hallelujah", cursive;
+    margin: 0px 0px 20px 20px;
+    text-decoration: none;
+    cursor: grab;
+
+}
+
+nav a:hover {
+
+color: #a31717; 
+
+}
+
+main{
+
+    flex: 1 1 500px;
+    order: 2;
+
+}
+
+h2 {
+
+    color:#ffffff;
+    
+    }    
+
+   
+main img {
+
+width: 300px;
+
+
+}
+
+aside {
+background-color: #ffffff;
+      flex: 1 0 200px;
+      order: 4;
+        height: 100%;
+      
+        background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(163, 23, 23, 0.2) 35px, rgba(163, 23, 23, 0.2) 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(163, 23, 23,0.4) 35px, rgba(163, 23, 23, 0.301) 70px);
+        background-attachment: fixed;
+      }
+
+
+   .ant {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: moveAnt;
+    animation-duration: 9s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveAnt {
+    from {
+        top: 0;
+        left: -40%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+
+section{
+    background-color: #ffffff;
+
+
+}
+
+footer{
+
+    background-color: #ffffff;
+    text-align: center;
+    color: 	#000000;
+    
+    flex: 1 0 100%;
+    order: 5;
+}
+
+
+.box {
+
+    background: #290202;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 10px solid #ffffff;
+    margin: 40px auto;
+
+}
+
+article{
+    background-color: #ffffff;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#wrapper {
+    margin: 0px auto;
+    color: #ffffff;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+summary img{
+
+width: 300px;
+
+}
+
+.grid-container {
+
+    display: inline-grid;
+    border: 10px solid #ffffff;
+    border-style: dashed;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: minmax(100px, auto);
+    gap: 50px
+    
+
+    
+    }
+    
+    .grid-item {
+    
+        padding: 50px;
+
+        
+    }
+
+
+
+
+.button {
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 136, 136);
+    color: rgb(163, 23, 23);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+  }
+
+  .button:hover {
+
+    background-color: #bd5656;
+
+  }
+
+
+
+.textBox:hover {
+    font-family: "Gloria Hallelujah", cursive;
+
+}
+
+
